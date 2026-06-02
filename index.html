@@ -3,14 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce Frontend</title>
+    <title>NovaStore</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Online Store</h1>
-    </header>
 
-    <script src="scripts/app.js"></script>
+
+<header class="header">
+    <div class="logo">🛍️ NovaStore</div>
+
+    <div class="hamburger">☰</div>
+
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="header-right">
+        <input type="text" class="search-bar" placeholder="Search products...">
+        <div class="cart">🛒 <span class="cart-count">0</span></div>
+    </div>
+</header>
+
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Biggest Tech Sale of the Year</h1>
+        <p>Latest gadgets, laptops, smartphones & accessories</p>
+        <button>Shop Now</button>
+    </div>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80">
+            <h3>Laptop</h3>
+
+            <div class="rating">⭐⭐⭐⭐☆ (4.2)</div>
+            <p class="desc">High performance laptop for gaming and office work.</p>
+            <p class="price">₹65,000</p>
+
+            <button class="add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80">
+            <h3>Smartphone</h3>
+
+            <div class="rating">⭐⭐⭐⭐⭐ (4.8)</div>
+            <p class="desc">Latest smartphone with powerful camera and battery.</p>
+            <p class="price">₹35,000</p>
+
+            <button class="add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80">
+            <h3>Headphones</h3>
+
+            <div class="rating">⭐⭐⭐⭐☆ (4.1)</div>
+            <p class="desc">Noise cancelling headphones with deep bass.</p>
+            <p class="price">₹2,999</p>
+
+            <button class="add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80">
+            <h3>Smart Watch</h3>
+
+            <div class="rating">⭐⭐⭐⭐⭐ (4.7)</div>
+            <p class="desc">Track fitness, heart rate and notifications easily.</p>
+            <p class="price">₹5,999</p>
+
+            <button class="add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80">
+            <h3>Camera</h3>
+
+            <div class="rating">⭐⭐⭐⭐☆ (4.3)</div>
+            <p class="desc">DSLR camera for professional photography.</p>
+            <p class="price">₹45,000</p>
+
+            <button class="add">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<script src="scripts/app.js"></script>
 </body>
 </html>
